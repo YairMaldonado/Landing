@@ -99,7 +99,7 @@ a{
   .portada1 h1{
     font-size: 2rem;
   }
-  p {
+  .portada1 p {
       font-size: 0.5rem;
       margin-bottom: 20px;
       line-height: 20px;
@@ -222,7 +222,23 @@ p {
 @media screen and (max-width: 768px){
   .card2{
     margin: 50px 0;
-  }
+    border-top: #000000 dashed 5px;
+    padding: 5px;
+  }  
+  .card2 img{
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 20px;
+  /* align-items: center; */
+  justify-content: start;
+}
 }
   footer {
     width: 100%;
