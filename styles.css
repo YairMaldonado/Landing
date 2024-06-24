@@ -81,6 +81,29 @@ a{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .portada1{
+    height: 50vh; 
+    background-image: url(img/XboxLogo.webp);
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  .texto {
+    padding: 2px;
+  }
+  h1 {
+      font-size: 1px;
+      /* margin-bottom: 10px; */
+  }
+
+}
 h1 {
     font-size: 3rem;
     margin-bottom: 10px;
